@@ -13,19 +13,19 @@
             margin: 0;
             box-sizing: border-box;
         }
-        
+
         .wrapper {
             min-height: 100vh;
         }
-        
+
         .main {
             min-height: calc(100vh - 62px);
         }
-        
+
         .header {
             position: relative;
         }
-        
+
         .mask {
             position: fixed;
             width: 100%;
@@ -41,7 +41,7 @@
             transition: 0.3s;
             z-index: 20;
         }
-        
+
         .header_main {
             padding-top: 1rem;
             padding-bottom: 1rem;
@@ -50,7 +50,7 @@
             z-index: 20;
             position: relative;
         }
-        
+
         .open {
             position: fixed;
             width: 100%;
@@ -62,12 +62,12 @@
             padding-left: 1rem;
             padding-right: 1rem;
         }
-        
+
         .open li:first-child {
             height: 123px;
             border: 1px solid #000;
         }
-        
+
         .open li {
             padding-left: 0.5rem;
             padding-right: 0.5rem;
@@ -79,6 +79,7 @@
 
 <body style="overflow:hidden">
     <div class="wrapper">
+        <input type="text" placeholder="輸入您想找的商品" value="">
         <div class="header">
             <div class="mask"></div>
             <div class="header_main"></div>
